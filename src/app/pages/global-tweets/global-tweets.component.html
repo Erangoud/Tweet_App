@@ -1,0 +1,9 @@
+<app-header></app-header>
+<div *ngFor="let tweet of globalTweets" class="tweet-card">
+    <p class="tweet-user">
+      <strong>{{ getUsernameById(tweet.userId) }}</strong>
+    </p>
+    <p class="tweet-content">{{ tweet.content }}</p>
+    <p class="tweet-timestamp">{{ tweet.timestamp | date:'short' }}</p>
+  </div>
+  

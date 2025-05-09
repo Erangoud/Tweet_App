@@ -1,0 +1,104 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Full-screen flexbox center */
+body {
+    background-color: #2e6057;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+
+/* Form container */
+.register-container {
+    background-color: rgb(145, 216, 212);
+    padding: 20px;
+    margin-top: 10vh;
+    margin-left: 35vw;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(34, 33, 42, 0.951);
+    width: 100%;
+    max-width: 500px;  /* Ensure the login container does not stretch too much */
+    min-width: 300px;
+}
+
+/* Heading */
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: black;
+}
+
+/* Form styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Labels */
+label {
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #355;
+}
+
+/* Inputs */
+input {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+    outline: none;
+    transition: border-color 0.3s ease;
+    width: 100%;
+}
+
+input:focus {
+    border-color: #0056b3;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    background-color: rgb(238, 145, 232);
+    color: black;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(203, 58, 164);
+}
+
+/* Paragraph and link */
+p {
+    text-align: center;
+    margin-top: 15px;
+    color: #555;
+}
+
+a {
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    color: #0056b3;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    text-decoration: underline;
+}
